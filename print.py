@@ -3,4 +3,5 @@ import time
 
 for i in range(101):
     print(f"\r{i}", end="", flush=True)
+    print(f'\rsome other data {i}', end="", flush=True)
     time.sleep(0.2)

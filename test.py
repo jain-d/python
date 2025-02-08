@@ -1,7 +1,9 @@
-def testing_starred_expression(vulgar, weed, muslim):
-    print(f'vulgar= {vulgar}')
-    print(f'weed= {weed}')
-    print(f'muslim= {muslim}')
+fileData = open("./test.txt")
+fileContent = fileData.read()
 
-sample_tuple = tuple((69, 420, 786))
-testing_starred_expression(*sample_tuple)
+print(fileContent.rstrip().split("\n"))
+
+"""
+for lines in fileContent:
+    print(f"'. {lines}'")
+"""
