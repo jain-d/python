@@ -14,6 +14,7 @@ print(word.count("e"))
 # FIND, give us the index at which we the specified character(s) is found starting from left, -1 if not found
 print("\nFIND")
 print(word.find("e"))
+print(word.find("e", 10, -2))               #find can take optional arguments for specifying the start and end to the string
 
 # Additionally, rfind gives us the index where the item was found last
 print("\nRFIND")
@@ -37,7 +38,7 @@ print(r_name.rstrip("-"))
 # CENTER, centers the string with the given number by adding characters(default, spaces) around it.
 print("\nCENTER")
 test = "do"
-print(f".{test.center(6, "-")}.")
+print(f'.{test.center(6, "-")}.')
 
 # RJUST & LJUST, center = rjust + ljust, rjust justifies the string to the right by a certain digit by filling the remaining space with the given character, & vice-versa with ljust
 print("\nRJUST")
@@ -47,6 +48,14 @@ print(ac_number_ending.rjust(10, "x"))
 # SPLIT, splits the string with the specified character as delimiter and returns as the list
 print("\nSPLIT")
 print(word.split(" "))
+print("split 2")
+print(word.split(" ", 2))                       # split can take an optionally parameter for the maximum number of splits we want to peform.
+# RSPLIT, split but it work in reverse order, and the significance of the second argument become relevant 
+print("rsplit 2")
+print(word.rsplit(" ", 2))                      # starts splitting from the right, and performs atmost 2 splits
+
+# SPLITLINES, splits an entire stream of text based on linebreak as delimiter. So a list, with lines being individual elements
+# large_data.splitlines(), for more info, see "../lines.py"
 
 # STARTSWITH, returns boolean for whether a string starts with the particular string, optionally can be extended to include starting and ending indexes too
 print("\nSTARTSWITH")
