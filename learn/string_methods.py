@@ -1,32 +1,37 @@
 # Trying out different string methods in python
 
 word = "still wakes the deep"
-print(f"{word}")
+print(f"\"{word}\"")
 
 # LENGTH of the string in python
 print("\nLENGTH")
-print(len(word))
+print(f"\"{word}\" -> \"{len(word)}\"")
 
 # COUNT, gives us count of the number of times a character(s) have appeared
 print("\nCOUNT")
-print(word.count("e"))
+print(f"\"{word}\" -> \"{word.count("e")}\"")
 
-# FIND, give us the index at which we the specified character(s) is found starting from left, -1 if not found
+# FIND, give us the find index at which we the specified character(s) is found starting from left, -1 if not found
 print("\nFIND")
+print(f"finding \"e\" in \"{word}\"")
 print(word.find("e"))
+print("finding \"e\" form the index 10")
 print(word.find("e", 10, -2))               #find can take optional arguments for specifying the start and end to the string
 
 # Additionally, rfind gives us the index where the item was found last
 print("\nRFIND")
+print(f"finding \"e\" from the right side of the string")
 print(word.rfind("e"))
 
 # REPLACE, replaces a particular string with another.
 print("\nREPLACE")
+print(f"replacing \"deep\" with \"dark\" in '\"{word}\"'")
 print(word.replace("deep", "dark"))
 
 # STRIP, removes trailing and preceeding characters(default, whitespace)
 print("\nSTRIP")
-with_spaces = f'-{word}-'
+with_spaces = f'-\"{word}\"-'
+print(f"striping {with_spaces} of \"-\"")
 print(with_spaces.strip("-"))
 
 # Additionally, lstrip and rstrip removes characters(default, whitespace) from the begining and the end.
@@ -51,7 +56,7 @@ print(word.split(" "))
 print("split 2")
 print(word.split(" ", 2))                       # split can take an optionally parameter for the maximum number of splits we want to peform.
 # RSPLIT, split but it work in reverse order, and the significance of the second argument become relevant 
-print("rsplit 2")
+print("rsplit, 2")
 print(word.rsplit(" ", 2))                      # starts splitting from the right, and performs atmost 2 splits
 
 # SPLITLINES, splits an entire stream of text based on linebreak as delimiter. So a list, with lines being individual elements
@@ -59,7 +64,7 @@ print(word.rsplit(" ", 2))                      # starts splitting from the righ
 
 # STARTSWITH, returns boolean for whether a string starts with the particular string, optionally can be extended to include starting and ending indexes too
 print("\nSTARTSWITH")
-print(word.startswith("still"))
+print(f"does \"{word}\" startswith \"still\" -> \"{word.startswith("still")}\"")
 print(word.startswith("wa", 6))
 
 # ENDSWITH, does what startswith does, but at the end
@@ -73,23 +78,30 @@ print(word.partition(" "))
 
 # ISALPHA, returns true if all characters of the string are alphabets, whitespace is a  non-alphabetic character 
 print("\nISALPHA")
-print("".join(word.split(" ")).isalpha())
+print(f"\"{word}\" isalpha -> \"{word.isalpha()}\"")
+print(f"{"".join(word.split(" "))} isalpha -> \"{"".join(word.split(" ")).isalpha()}\"")
 
 # ISNUMERIC, return true if all the characters of the string are numbers
 print("\nISNUMERIC")
-print(word.isnumeric())
+print(f" \"{word}\" isnumeric -> \"{word.isnumeric()}\"")
 
 # ISALNUM, returns true if the give string is alphanumeric
 print("\nISALNUM")
-print(word.isalnum())
+print(f"\"{word}\" is alphanumeric -> \"{word.isalnum()}\"")
 print(("3".join(word.split(" "))).isalnum())
+
+# ISSPACE, checks weather a string is whitespace only
 
 # CAPITALIZE, capitalizes the first letter
 print("\nCAPITALIZE")
 capitalized = word.capitalize()
-print(capitalized)
+print(f"\"{word}\" capitalized -> \"{capitalized}\"")
 
-# CASEFOLD, just like .lower()
+# TITLE, capitalizes the first letter of all the words in the string
+print("\nTITLE")
+print(word.title())
+
+# CASEFOLD, just like .lower() but more aggressive, meaning would just convert english alphabets to lowercase, will also work with international languages.
 print("\nCASEFOLD")
 upper = word.upper()
 print(upper.casefold())
