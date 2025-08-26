@@ -6,16 +6,16 @@
 - ~~**Functions**: Definition, arguments, return values, scope~~
 - ~~**File Operations**: Reading/writing files, working with paths~~
 - ~~**Error Handling**: Try/except blocks, raising exceptions~~
-- **Modules & Packages**: Importing, creating your own modules
-- **Working with Virtual Environments**: Basic pip usage
-- **Basic OOP**: Classes, instances, methods, inheritance
+- ~~**Modules & Packages**: Importing, creating your own modules~~
+- ~~**Working with Virtual Environments**: Basic pip usage~~
+- ~~**Basic OOP**: Classes, instances, methods, inheritance~~
 
 ## Core Language Constructs
 - **Advanced Functions**: Decorators, closures, generators, context managers
 - **Object-Oriented Python**: Inheritance, polymorphism, abstract base classes, metaclasses
-- **Data Model Magic**: Special methods (`__dunder__` methods), operator overloading
+- ~~**Data Model Magic**: Special methods (`__dunder__` methods), operator overloading~~
 - **Functional Programming**: `map`/`filter`/`reduce`, comprehensions, lambda functions
-- **Type Annotations**: Static type checking with `mypy`
+- ~~**Type Annotations**: Static type checking with `mypy`~~
 
 ## Concurrency & Async
 - **Threading**: Thread synchronization, locks, events, thread pools
@@ -35,7 +35,7 @@
 
 ## Key Third-Party Libraries
 - **Data Science**: NumPy, Pandas, Matplotlib
-- **Web Development**: Flask, Django, FastAPI
+- **Web Development**: Flask
 - **Testing**: Pytest, unittest, hypothesis
 - **Networking**: Requests, aiohttp, httpx
 - **Database**: SQLAlchemy, Alembic, Pony ORM
