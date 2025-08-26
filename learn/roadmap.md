@@ -1,11 +1,11 @@
 # Python Proficiency Roadmap (Prerequisites → Advanced)
 
 ## Prerequisites
-- **Basic Syntax**: Variables, data types, operators, control flow (if/else, loops)
-- **Basic Data Structures**: Lists, dictionaries, sets, tuples
-- **Functions**: Definition, arguments, return values, scope
-- **File Operations**: Reading/writing files, working with paths
-- **Error Handling**: Try/except blocks, raising exceptions
+- ~~**Basic Syntax**: Variables, data types, operators, control flow (if/else, loops)~~
+- ~~**Basic Data Structures**: Lists, dictionaries, sets, tuples~~
+- ~~**Functions**: Definition, arguments, return values, scope~~
+- ~~**File Operations**: Reading/writing files, working with paths~~
+- ~~**Error Handling**: Try/except blocks, raising exceptions~~
 - **Modules & Packages**: Importing, creating your own modules
 - **Working with Virtual Environments**: Basic pip usage
 - **Basic OOP**: Classes, instances, methods, inheritance
