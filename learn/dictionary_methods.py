@@ -5,24 +5,15 @@ dic = {
     "city": "New York",
 }
 
+# LENGTH of the dictionary
+print(len(dic))
+print('\n')
 
-list_of_dic = [
-    {
-        "name": "John Wick",
-        "age": 50,
-        "city": "London"
-    },
-    {
-        "name": "James Bond",
-        "age": 43,
-        "city": "London"
-    },
-    {
-        "name": "Ethan Hunt",
-        "age": 38,
-        "city": "..."
-    }
-]
+# Accessing the entries in the dictionary
+print("for loop to access dictionary")
+for entry in dic:
+    print(f"{entry}: {dic[entry]}")
 
-for content in list_of_dic:
-    print(f"{content["name"]} operates in {content["city"]}")
+print('\n')
+
+# 

@@ -2,7 +2,7 @@
 # One of the most unique thing about the is it ability to automatically remove duplicates
 
 # ADD, adds an item to the set, will ignore if item is already present
-set_a = set("still wakes the deep".split())
+set_a = set("still wakes the deep".split(" "))
 set_a.add("dark")
 print(set_a)
 
@@ -11,7 +11,7 @@ set_a.remove("dark")
 
 # UPDATE, adds the contents of any iterable to the set
 listt = ["test"]
-set_a.update(listt)
+set_a.update(["test"])
 print(set_a)
 
 # POP, remove a random item
@@ -45,6 +45,6 @@ print(set_a.difference(set_b))
 print(set_a - set_b)
 
 # SYMMETRIC_DIFFERENCE, return an set of all the non common element of both set-a and set-b
-print(set_a.symmetric_difference(set_b))
+print(set_a.symmetric_difference({"still"}))
 # or 
 print(set_a ^ set_b)

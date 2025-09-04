@@ -1,6 +1,6 @@
 # Trying out different string methods in python
 
-word = "still wakes the deep"
+word: str = "still wakes the deep"
 print(f"\"{word}\"")
 
 # LENGTH of the string in python
@@ -25,16 +25,16 @@ print(word.rfind("e"))
 
 # REPLACE, replaces a particular string with another.
 print("\nREPLACE")
-print(f"replacing \"deep\" with \"dark\" in '\"{word}\"'")
+print(f"replacing \"deep\" with \"dark\" in \"{word}\"")
 print(word.replace("deep", "dark"))
 
-# STRIP, removes trailing and preceeding characters(default, whitespace)
+# STRIP, removes trailing and preceeding characters(default, whitespace). Doesn't remove the literal string from the beginning/end instead, removes any characters that appear in the specified string 
 print("\nSTRIP")
 with_spaces = f'-\"{word}\"-'
-print(f"striping {with_spaces} of \"-\"")
+print(f"striping of \"-\" {with_spaces}")
 print(with_spaces.strip("-"))
 
-# Additionally, lstrip and rstrip removes characters(default, whitespace) from the begining and the end.
+# Additionally, lstrip and rstrip removes characters from the set(default, whitespace) from the begining and the end.
 l_name = " JohnWick"
 r_name = "JohnWick--"
 print(l_name.lstrip())
@@ -109,3 +109,13 @@ print(upper.casefold())
 # SWAPCASE, changes/replaces the case with the other
 print("\nSWAPCASE")
 print(word.swapcase())
+
+#REMOVEPREFIX, removes a specified substring from the start of a string
+print("\nREMOVEPREFIX")
+print(f"removing \"il\" using removeprefix")
+print(word, "removeprefix ->", word.removeprefix("st"))
+
+#REMOVESUFFIX, just like removeprefix, but instead removes suffix
+print("\nREMOVESUFFIX")
+print(f"removing \" deep\" using removesuffix")
+print(word, "removesuffix ->", word.removesuffix(" deep"))

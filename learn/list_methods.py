@@ -16,12 +16,17 @@ state.insert(3, "dark")
 print(state)            # dark will be inserted at index 3, anything pre-existing will be pushed after
 
 
+# INDEX, find the index of where(which index) the item can be found at. Errors if element is not present
+print(state.index("still"))
+
+
 # EXTEND, used to add contents of another iterable inside the list
 state = ["still", "wakes", "the", "deep"]
 second_list = ["part", "2"]
 state.extend(second_list)
 print(state)
 
+# any iterable, will also work with a tuple
 state = ["still", "wakes", "the", "deep"]
 second_tuple = ("part", "2")
 state.extend(second_tuple)
