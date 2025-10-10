@@ -71,12 +71,33 @@ print(numeric_list)
 print("still wakes the deep".split(" ").reverse())
 
 
-# COPY, a deep copy of another list
+# COPY, a shallow copy of another list
 original_list = "still wakes the deep".split(" ")
 state = original_list.copy()
 original_list.append("part2")
 print(state)
 
-# can also be deep copied like this
+# can also be shallow copied like this
 old_list = ["red", "green", "blue"]
 new_list = list(old_list)
+
+
+# DEEPCOPY vs SHALLOW COPY
+# In this case where we have a list that contains nested list(or any mutable type)
+list_one = [[5, 4, 3], [2, 1, 0]]
+list_two = list_one.copy()
+list_two = list(list_one)
+list_two = list_one[::]
+# a shallow copy here would mean that the list is copied, but the nested mutable types are the same.
+# so any change in list list_one's inner lists would also appear in list_two
+# shallow copy is outer structure are distinct different objects
+# list_one is list_two          ✗
+# but, inner mutables types are just references of the same object
+# list_one[0] is list_two[0]    ✓
+
+
+list_three = copy.deepcopy(list_one)
+# here, with deep copy, not only do we have different outer structure, but also different inner structure as well
+# list_three is list_one        ✗
+# and also
+# list_three[0] is list_one[0]  ✗
