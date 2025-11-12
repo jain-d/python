@@ -112,12 +112,6 @@ This is the overview for you, refrain any judgements for now. The next chat will
 
 ======================= Next Steps ========================
 
-Absolutely — here’s your original message, now reformatted as a **Next Steps** section for your `README.md`. This captures your thought process cleanly and can guide your future implementation work.
-
----
-
-## Next Steps: Evolving the Elevator FSM into a GUI Simulation
-
 While the current CLI-based FSM simulates a single user interacting with the elevator, there are limitations in visualizing **multiple concurrent interactions** and tracking **dynamic queue behavior**. The next phase of the project will involve expanding the system into a **multi-user, real-time simulation** using a GUI framework (mostly likely Tkinter).
 
 ### Goals for Next Phase:
