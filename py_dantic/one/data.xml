@@ -1,0 +1,29 @@
+<people>
+  <person>
+    <person_id>1</person_id>
+    <full_name>Alice Walker</full_name>
+    <age>30</age>
+    <city>London</city>
+    <car_company>Toyota</car_company>
+    <car_engine_type>petrol</car_engine_type>
+    <engine_capacity>1200</engine_capacity>
+  </person>
+  <person>
+    <person_id>2</person_id>
+    <full_name>Bob Smith</full_name>
+    <age>42</age>
+    <city></city>
+    <car_company>Tesla</car_company>
+    <car_engine_type>electric</car_engine_type>
+    <engine_capacity></engine_capacity>
+  </person>
+  <person>
+    <person_id>3</person_id>
+    <full_name>Charlie Brown</full_name>
+    <age>25</age>
+    <city>Paris</city>
+    <car_company></car_company>
+    <car_engine_type></car_engine_type>
+    <engine_capacity></engine_capacity>
+  </person>
+</people>
