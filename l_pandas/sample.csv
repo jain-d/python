@@ -1,0 +1,11 @@
+ID,Name,Age,Gender,Location,Salary,Department,Years of Experience,Start Date,Last Promotion
+1,John Doe,34,Male,New York,75000,Engineering,10,2012-06-15,2018-04-10
+2,Jane Smith,29,Female,Los Angeles,68000,Marketing,6,2017-03-22,2020-05-30
+3,Bob Johnson,41,Male,Chicago,95000,Sales,15,2008-08-05,2016-11-12
+4,Alice Williams,30,Female,San Francisco,72000,HR,7,2016-09-14,2021-07-01
+5,Charlie Brown,36,Male,Boston,80000,Engineering,12,2010-02-10,2019-01-25
+6,Emily Davis,27,Female,Seattle,67000,Marketing,5,2018-04-18,2022-02-08
+7,David Wilson,43,Male,Miami,88000,Sales,18,2005-07-21,2017-12-09
+8,Susan Moore,39,Female,Denver,77000,HR,10,2012-11-30,2020-06-18
+9,James Taylor,31,Male,Washington,71000,Engineering,9,2013-01-25,2019-09-10
+10,Karen Lee,28,Female,Austin,65000,Marketing,4,2019-05-12,2021-11-30

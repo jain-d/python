@@ -1,0 +1,122 @@
+<employees>
+    <employee>
+        <ID>1</ID>
+        <Name>John Doe</Name>
+        <Age>34</Age>
+        <Gender>Male</Gender>
+        <Location>New York</Location>
+        <Salary>75000</Salary>
+        <Department>Engineering</Department>
+        <YearsOfExperience>10</YearsOfExperience>
+        <StartDate>2012-06-15</StartDate>
+        <LastPromotion>2018-04-10</LastPromotion>
+    </employee>
+    <employee>
+        <ID>2</ID>
+        <Name>Jane Smith</Name>
+        <Age>29</Age>
+        <Gender>Female</Gender>
+        <Location>Los Angeles</Location>
+        <Salary>68000</Salary>
+        <Department>Marketing</Department>
+        <YearsOfExperience>6</YearsOfExperience>
+        <StartDate>2017-03-22</StartDate>
+        <LastPromotion>2020-05-30</LastPromotion>
+    </employee>
+    <employee>
+        <ID>3</ID>
+        <Name>Bob Johnson</Name>
+        <Age>41</Age>
+        <Gender>Male</Gender>
+        <Location>Chicago</Location>
+        <Salary>95000</Salary>
+        <Department>Sales</Department>
+        <YearsOfExperience>15</YearsOfExperience>
+        <StartDate>2008-08-05</StartDate>
+        <LastPromotion>2016-11-12</LastPromotion>
+    </employee>
+    <employee>
+        <ID>4</ID>
+        <Name>Alice Williams</Name>
+        <Age>30</Age>
+        <Gender>Female</Gender>
+        <Location>San Francisco</Location>
+        <Salary>72000</Salary>
+        <Department>HR</Department>
+        <YearsOfExperience>7</YearsOfExperience>
+        <StartDate>2016-09-14</StartDate>
+        <LastPromotion>2021-07-01</LastPromotion>
+    </employee>
+    <employee>
+        <ID>5</ID>
+        <Name>Charlie Brown</Name>
+        <Age>36</Age>
+        <Gender>Male</Gender>
+        <Location>Boston</Location>
+        <Salary>80000</Salary>
+        <Department>Engineering</Department>
+        <YearsOfExperience>12</YearsOfExperience>
+        <StartDate>2010-02-10</StartDate>
+        <LastPromotion>2019-01-25</LastPromotion>
+    </employee>
+    <employee>
+        <ID>6</ID>
+        <Name>Emily Davis</Name>
+        <Age>27</Age>
+        <Gender>Female</Gender>
+        <Location>Seattle</Location>
+        <Salary>67000</Salary>
+        <Department>Marketing</Department>
+        <YearsOfExperience>5</YearsOfExperience>
+        <StartDate>2018-04-18</StartDate>
+        <LastPromotion>2022-02-08</LastPromotion>
+    </employee>
+    <employee>
+        <ID>7</ID>
+        <Name>David Wilson</Name>
+        <Age>43</Age>
+        <Gender>Male</Gender>
+        <Location>Miami</Location>
+        <Salary>88000</Salary>
+        <Department>Sales</Department>
+        <YearsOfExperience>18</YearsOfExperience>
+        <StartDate>2005-07-21</StartDate>
+        <LastPromotion>2017-12-09</LastPromotion>
+    </employee>
+    <employee>
+        <ID>8</ID>
+        <Name>Susan Moore</Name>
+        <Age>39</Age>
+        <Gender>Female</Gender>
+        <Location>Denver</Location>
+        <Salary>77000</Salary>
+        <Department>HR</Department>
+        <YearsOfExperience>10</YearsOfExperience>
+        <StartDate>2012-11-30</StartDate>
+        <LastPromotion>2020-06-18</LastPromotion>
+    </employee>
+    <employee>
+        <ID>9</ID>
+        <Name>James Taylor</Name>
+        <Age>31</Age>
+        <Gender>Male</Gender>
+        <Location>Washington</Location>
+        <Salary>71000</Salary>
+        <Department>Engineering</Department>
+        <YearsOfExperience>9</YearsOfExperience>
+        <StartDate>2013-01-25</StartDate>
+        <LastPromotion>2019-09-10</LastPromotion>
+    </employee>
+    <employee>
+        <ID>10</ID>
+        <Name>Karen Lee</Name>
+        <Age>28</Age>
+        <Gender>Female</Gender>
+        <Location>Austin</Location>
+        <Salary>65000</Salary>
+        <Department>Marketing</Department>
+        <YearsOfExperience>4</YearsOfExperience>
+        <StartDate>2019-05-12</StartDate>
+        <LastPromotion>2021-11-30</LastPromotion>
+    </employee>
+</employees>
