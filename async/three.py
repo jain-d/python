@@ -16,12 +16,12 @@ async def another_runner():                                 # 4/8. Since another
         print("\033[31m.\033[0m")
 
 
-# ==== MAIN ENTRY POINT ====
 async def main():
-    await asyncio.gather(run_timer(3), another_runner())    # <== 1. The Event Loop schedule 2 coroutines, first one being run_timer
+    await asyncio.gather(run_timer(3), another_runner())    # <== 1. The Event Loop schedules 2 coroutines, first one being run_timer
 
 
-asyncio.run(main())
+# ==== MAIN ENTRY POINT ====
+asyncio.run(main())                                         # ←   0. Event loop gets created, runs the coroutine main()
 
 
 # NOTE: All of this is entirely single threaded, with task yielding back control at await points.
